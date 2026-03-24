@@ -132,5 +132,5 @@ section h2::after{
     background-color: azure;
     padding: 25px;
     border-radius: 16px;
-    box-shadow: ;
+    box-shadow: 8px 24px rgba(0, 0, 0, 0) ;
 }
