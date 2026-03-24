@@ -87,7 +87,7 @@ padding: 90px 20px;
     margin: 0 auto 25px;
 }
 
-.hero . btn{
+.hero .btn{
     display: inline-block;
     background: #ffca28;
     color: #0d47a1;
@@ -110,27 +110,64 @@ section h2{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
-    color:#0d47a1;
+    color: #0d471a;
     position: relative;
 }
 
 section h2::after{
-    content:"";
-    display:block;
-    width:90px;
-    height:40px;
-    background: #0d47a1;
+    content: "";
+    display: block;
+    width: 90px;
+    height: 4px;
+    background: #42a5f5;
     border-radius: 10px;
-
 }
 .cards{
     display: grid;
-    grid-template columns: repeat(auto-fit, minmax(260px,Ifr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px;
 }
 
 .card{
-    background-color: azure;
+    background-color: white;
     padding: 25px;
     border-radius: 16px;
-    box-shadow: 8px 24px rgba(0, 0, 0, 0) ;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card h3{
+    color: #1565c0;
+    margin-bottom: 12px;
+    font-size: 1.25rem;ll
+}
+
+.card p{
+    color: #4b5563;
+}
+
+.agenda{
+    background: #eaf3ff;
+    border-radius: 18px;
+    padding: 35px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.agenda ul{
+    list-style: none;
+}
+
+.agenda ul li{
+    background: white;
+    margin-bottom: 14px;
+    padding: 16px 18px;
+    border-left: 6px solid #1976d2;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-weight: 500;
 }
