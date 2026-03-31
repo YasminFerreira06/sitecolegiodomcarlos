@@ -201,5 +201,7 @@ footer{
     background: #08306b;
     color:#f4f7fb;
     text-align: center;
-    
+    padding: 22px 15px;
+    margin-top: 40px;
+    font-size: 0.95rem;
 }
